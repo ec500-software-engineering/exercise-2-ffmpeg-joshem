@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # exercise-2-ffmpeg-joshem
 For this exercise, I used perf stat to find out how much utilization my ffmpeg command was doing. Specifically, I ran:
 ''' perf stat -- ffmpeg -i IN -r 30 -b:v 1M OUT ''' 
