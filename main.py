@@ -19,7 +19,7 @@ def my_func(x):
   
 def main():
   pool = mp.Pool(mp.cpu_count())
-  result = pool.map(my_func, [4,2,3,5,1,8])
+  result = pool.map(my_func, [1,2,3,4,5,6,7,8,9,10,11,12])
   #result_set_2 = pool.map(my_func, [4,6,5,4,6,3,23,4,6])
 
   print(result)
